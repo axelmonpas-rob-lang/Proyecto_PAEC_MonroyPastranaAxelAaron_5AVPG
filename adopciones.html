@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title> Proyecto PAEC </title>
+        <style>
+            header{
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: rgb(137, 116, 73);
+                padding: 10px 20px;
+            }
+            .barra-navegacion{
+                display: flex;
+                gap: 15px;
+                margin-top: 10px;
+            }
+            .boton-nav{
+                text-decoration: none;
+                color: rgb(6, 6, 6);
+                background-color: rgb(222, 220, 177);
+                padding: 10px 12px;
+                border-radius: 4px;
+                font-size: 14px;
+                font-family: sans-serif;
+                transition: background-color 0.3s;
+            }
+            .boton-nav:hover{
+                background-color: rgb(224, 182, 83);
+                color: rgb(254, 250, 255);
+            }
+            .boton-nav.activo{
+                background-color: rgb(224, 182, 83);
+                color: rgb(255, 219, 37);
+                font-weight: bold;
+            }
+            .logo-pequeño{
+                width: 50px;
+                height: auto;
+                display: block;
+            }
+            .logo-cabecera{
+                max-width: 50%;
+                height: 150px;
+                display: block;
+                margin: bottom 15px;
+                /*esapacio entre la imagen y el titulo*/
+            }
+            .logo-add{
+                max-width: 50%;
+                height: auto;
+                display: block;
+                margin: bottom 15px;
+            }
+            main{
+                display: flex;
+                gap: 20px;
+            }
+            aside{
+                width: 25%;
+                background-color: rgb(178, 206, 164);
+                padding: 15px;
+            }
+            section{
+                width: 75%;
+                background-color: rgba(237, 211, 159, 0.773);
+                padding: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1 style="margin: 0;">Proyecto PAEC</h>
+                <nav class = "Menu de navegacion">
+                    <a href=index.html class= "boton-nav ">inicio</a>
+                    <a href=adopciones.html class= "boton-nav activo">adopciones</a>
+                    <a href=donaciones.html class= "boton-nav ">donaciones</a>
+                </nav>
+            </div>
+            <img src="imagenes/logo.png" alt="logo de mi sitio web" class="logo-cabecera">
+        </header>
+        <main>
+            <aside>
+                <h1>patrocinador</h1>
+                <img style="width: 350px; height: 3600PX;" src="imagenes/ADD2.jpg" > 
+            </aside>
+            <section>
+                <article style="text-align: center;">
+                    <h1>Galeria visual</h1>
+                    <h1>en esta seccion podras ver nuestra lista de animalitos que todavia no encuentran una familia y en caso de que te interece adoptar podrias adoptar uno de ellas mandando un mensaje a nuestro gmail</h1>
+                    <h1>Bruno</h1>
+                    <img style="width: 600px; height: 400px;" src="imagenes/galeria1.jpg" >
+                    <h2>bruno es un perrito que fue rescatado de la calle cuando recien nacio actualmente tiene 6 meses, es mu juegueton y tiene mucha energia</h2>
+                    <h1>Max</h1>
+                    <img style="width: 600px; height: 400px;" src="imagenes/galeria2.jpg" >
+                    <h2>Max es un perro noble, tranquilo y muy obediente. Le encanta dar paseos al aire libre y compartir momentos en familia. Es ideal para hogares que buscan un compañero fiel.</h2>
+                    <h1>Luna y Lola</h1>
+                    <img style="width: 600px; height: 400px;" src="imagenes/galeria3.jpg" >
+                    <h2>Luna y Lola son dos hermanitas inseparablemente unidas. Tienen un carácter dulce y sociable. Buscan un hogar donde puedan ser adoptadas juntas y recibir mucho amor.</h2>
+                    <h1>Milo</h1>
+                    <img style="width: 600px; height: 500px;" src="imagenes/galeria 4.jpg" >
+                    <h2>Milo es un perrito curioso y súper mimoso. Le encanta buscar atención y jugar con juguetes. ¡Se ganará tu corazón en un segundo!</h2>
+                    <h1>Rojelio,brandom y kiki</h1>
+                    <img style="width: 600px; height: 400px;" src="imagenes/galeria 5.jpg" >
+                    <h2>Este trío lleno de energía y alegría está buscando una familia responsable. Son muy amigables y se adaptan fácilmente a recibir mucho cariño.</h2>
+                    <h1>Rocky</h1>
+                    <img style="width: 600px; height: 400px;" src="imagenes/galeria 6.jpg" >
+                    <h2>Rocky es un perrito muy inteligente y cariñoso. Le encanta recibir caricias y está listo para brindarle lealtad incondicional a su nueva familia.</h2>
+
+
+                </article>
+            </section>
+        </main>
+        <footer> 
+            <p>contactanos </p>
+            <h3>correo: PAEC@gmail.com</h3>
+            <h3>intagram: proyecto_PAEC</h3>
+            <h3>numero:663 151 42 56</h3>
+            
+        </footer>
+    </body>
+</html>

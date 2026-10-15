@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title> Proyecto PAEC </title>
+        <style>
+            header{
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: rgb(137, 116, 73);
+                padding: 10px 20px;
+            }
+            .barra-navegacion{
+                display: flex;
+                gap: 15px;
+                margin-top: 10px;
+            }
+            .boton-nav{
+                text-decoration: none;
+                color: rgb(6, 6, 6);
+                background-color: rgb(222, 220, 177);
+                padding: 10px 12px;
+                border-radius: 4px;
+                font-size: 14px;
+                font-family: sans-serif;
+                transition: background-color 0.3s;
+            }
+            .boton-nav:hover{
+                background-color: rgb(224, 182, 83);
+                color: rgb(254, 250, 255);
+            }
+            .boton-nav.activo{
+                background-color: rgb(224, 182, 83);
+                color: rgb(255, 219, 37);
+                font-weight: bold;
+            }
+            .logo-pequeño{
+                width: 50px;
+                height: auto;
+                display: block;
+            }
+            .logo-cabecera{
+                max-width: 50%;
+                height: 150px;
+                display: block;
+                margin: bottom 15px;
+                /*esapacio entre la imagen y el titulo*/
+            }
+            .logo-add{
+                max-width: 50%;
+                height: auto;
+                display: block;
+                margin: bottom 15px;
+            }
+            main{
+                display: flex;
+                gap: 20px;
+            }
+            aside{
+                width: 25%;
+                background-color: rgb(178, 206, 164);
+                padding: 15px;
+            }
+            section{
+                width: 75%;
+                background-color: rgba(237, 211, 159, 0.773);
+                padding: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1 style="margin: 0;">Proyecto PAEC</h>
+                <nav class = "Menu de navegacion">
+                    <a href=index.html class= "boton-nav ">inicio</a>
+                    <a href=adopciones.html class= "boton-nav ">adopciones</a>
+                    <a href=donaciones.html class= "boton-nav activo">donaciones</a>
+                </nav>
+            </div>
+            <img src="imagenes/logo.png" alt="logo de mi sitio web" class="logo-cabecera">
+        </header>
+        <main>
+            <aside>
+                <h1>patrocinador</h1>
+                <img style="width: 350px; height: 1500PX;" src="imagenes/ADD3.jpeg" > 
+            </aside>
+            <section>
+                <article style="text-align: center;">
+                    <h1>Donaciones</h1>
+                    <img src="imagenes/dona.jpeg" >
+
+                    <h2>Si deseas apoyarnos con insumos, recibimos los siguientes artículos:</h2>
+                    
+                    <h1>Alimentos</h1>
+                    <ul>
+                        <h4>Croquetas para perro y gato (cachorros y adultos)</h4>
+                        <h4>Alimento húmedo en sobre o lata</h4>
+                        <h4>Premios y botanas para entrenamiento</h4>
+                    </ul>
+
+                    <h1>Cobijas y Refugio</h1>
+                    <ul>
+                        <h4>Cobijas, mantas y toallas limpias</h4>
+                        <h4>Camas para mascotas y tapetes</h4>
+                        <h4>Casitas o transportadoras</h4>
+                    </ul>
+
+                    <h1>Artículos de Limpieza y Salud</h1>
+                    <ul>
+                        <h4>Cloro, desinfectantes y limpiadores multiusos</h4>
+                        <h4>Detergente en polvo y jabón líquido</h4>
+                        <h4>Escobas, trapeadores y recogedores</h4>
+                        <h4>Bolsas para basura (tamaño grande)</h4>
+                        <h4>Guantes de látex o nitrilo</h4>
+                        <h4>Gasas, alcohol y antisépticos de uso veterinario</h4>
+                    </ul>
+
+                    <h1>Accesorios</h1>
+                    <ul>
+                        <h4>Collares, correas y arneses de distintos tamaños</h4>
+                        <h4>Platos de acero inoxidable o plástico resistente</h4>
+                        <h4>Juguetes para perros y gatos</h4>
+                    </ul>
+
+                    <h1>Centro de Acopio</h1>
+                    <h3>Lugar: Instalaciones del Proyecto PAEC (Dirección de tu centro / escuela)</h3>
+                    <h3>Fechas: Lunes a Viernes</h3>
+                    <h3>Horario: 9:00 a.m. a 4:00 p.m.</h3>
+                    <h3>Contacto: Puedes enviar un mensaje a nuestro correo de Gmail para confirmar entregas o resolver dudas.</h3>
+
+                    
+                </article>
+            </section>
+        </main>
+                <footer> 
+            <p>contactanos </p>
+            <h3>correo: PAEC@gmail.com</h3>
+            <h3>intagram: proyecto_PAEC</h3>
+            <h3>numero:663 151 42 56</h3>
+            
+        </footer>
+    </body>
+</html>
